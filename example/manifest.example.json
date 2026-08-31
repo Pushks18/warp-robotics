@@ -1,0 +1,23 @@
+{
+  "_comment": "Illustrative only. Box and pick values here are made up; your pipeline produces the real ones. File names refer to actual dev images: tote_0001 has items, tote_0002 is an empty tote.",
+  "results": [
+    {
+      "file": "tote_0001.jpg",
+      "items": [
+        { "bbox": [312, 240, 410, 355], "score": 0.94 },
+        { "bbox": [640, 300, 280, 300], "score": 0.81 }
+      ],
+      "action": "pick",
+      "pick": { "x": 517, "y": 417, "item_index": 0 },
+      "reason": "Largest fully visible top surface, nothing resting on it.",
+      "confidence": 0.9
+    },
+    {
+      "file": "tote_0002.jpg",
+      "items": [],
+      "action": "flag",
+      "reason": "Tote is empty.",
+      "confidence": 0.95
+    }
+  ]
+}

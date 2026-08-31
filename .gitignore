@@ -1,0 +1,26 @@
+# secrets
+.env
+.env.local
+*.key
+
+# python
+__pycache__/
+.venv/
+venv/
+*.pyc
+
+# node
+node_modules/
+dist/
+
+# outputs
+out/
+*.onnx
+*.pt
+*.pth
+*.weights
+
+# os / editor
+.DS_Store
+.idea/
+.vscode/
