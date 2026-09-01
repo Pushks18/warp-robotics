@@ -24,3 +24,10 @@ out/
 .DS_Store
 .idea/
 .vscode/
+
+# pipeline artefacts
+.venv/
+out/
+*.pt
+reports/*.npz
+reports/*.png
