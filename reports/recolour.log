@@ -1,0 +1,8 @@
+[green] wrote 120 recoloured images
+[green] detection mean F1 0.590   pick score        0.950  (ok 107, wrong 6, flagged 7)   
+[magenta] wrote 120 recoloured images
+[magenta] detection mean F1 0.584   pick score        0.958  (ok 109, wrong 5, flagged 6)   
+[grey] wrote 120 recoloured images
+[grey] detection mean F1 0.474   pick score        0.904  (ok 101, wrong 10, flagged 9)   
+[white] wrote 120 recoloured images
+[white] detection mean F1 0.480   pick score        0.867  (ok 97, wrong 13, flagged 10)   
